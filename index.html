@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us </title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Syne:wght@400..800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+ <div class="contact-section">
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <p>Welcome We're excited to hear from you. Whether you have a question about our services, 
+            want to provide a feedback, feel free to reach out using the form below.
+        </p>
+        <form action="https://formspree.io/f/xrbzqdvd" method="POST">
+            <div class="input-group">
+                <input type="text" placeholder="Enter Your Name" required>
+                <input name="Email" id="email" type="email" placeholder="Enter Your Email" required>
+            </div>
+
+            <input type="text" name="message" placeholder="Subject">
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message <i class='bx bxs-send'></i></button>
+        </form>
+    </div>
+    <div class="social-icons">
+        <a href="#"><i class='bx bxl-whatsapp'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-youtube'></i></a>
+    </div>
+ </div>   
+</body>
+</html>
